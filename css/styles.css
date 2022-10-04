@@ -46,6 +46,10 @@ ol {
 /* heder */
 
 /* logo */
+.header {
+  border-bottom: 1px solid #ececec;
+}
+
 .logo {
   color: var(--secondary-text-color);
   font-family: 'Raleway', sans-serif;
