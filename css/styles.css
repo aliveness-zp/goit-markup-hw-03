@@ -327,12 +327,11 @@ ol {
 .work-list-item {
   flex-basis: calc((100% - 60px) / 3);
   background: var(--primary-background-color);
-  border: 1px solid #eeeeee;
 }
 
 .work-list-item {
-  margin-right: 27px;
-  margin-bottom: 27px;
+  margin-right: 30px;
+  margin-bottom: 30px;
 }
 
 .work-list-item:nth-child(3n) {
@@ -346,8 +345,13 @@ ol {
   text-decoration: none;
 }
 
+.work-list-link img {
+  display: block;
+}
+
 .work-list-content {
   padding: 20px;
+  border: 1px solid #eeeeee;
 }
 
 .work-list-title {
